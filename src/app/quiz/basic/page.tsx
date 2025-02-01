@@ -8,9 +8,9 @@ import { Button } from "../../compoments/ui/button"
 const basicQuestions = [
     {
         id: 1,
-        question: "What is Next.js built on top of?",
-        options: ["Angular", "React", "Vue", "Svelte"],
-        correctAnswer: "React",
+        question: "What is the default behavior of pages in the Next.js pages directory ?",
+        options: ["They are automatically available as routes", " They require manual configuration", " They need a routes.js file", "They only work with server.js"],
+        correctAnswer: "They are automatically available as routes",
       },
       {
         id: 2,
@@ -26,9 +26,9 @@ const basicQuestions = [
       },
       {
         id: 4,
-        question: "Which file is used for customizing the HTML and body tags?",
-        options: ["_app.js", "_document.js", "index.js", "next.config.js"],
-        correctAnswer: "_document.js",
+        question: "How do you define an API route in Next.js?",
+        options: ["Create a file inside pages/api/", " Define a server.js file", "Use next-api package", " Configure next.config.js"],
+        correctAnswer: " Create a file inside pages/api/",
       },
       {
         id: 5,
@@ -311,9 +311,9 @@ const basicQuestions = [
       },
       {
         id: 44,
-        question: "How do you import an image using next/image?",
-        options: ["<img>", "<Image> from next/image", "<picture>", "<source>"],
-        correctAnswer: "<Image> from next/image",
+        question: "What is the default HTTP method if none is specified in an API route?",
+        options: [" GET", " POST", " DELETE", " PUT"],
+        correctAnswer: " GET",
       },
       {
         id: 45,
